@@ -1,4 +1,4 @@
-//This function sort a list of whitespace separated integers using selection, insertion, and bubble sort.
+//This function sort a list of whitespace separated integers using selection, insertion, and bubble sort WITHOUT the STL library!
 
 #include <vector>
 #include <iostream>
