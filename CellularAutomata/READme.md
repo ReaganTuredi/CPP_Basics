@@ -6,13 +6,13 @@ Contents
 --------
 
 - The function named "get_line_sum" takes a string representing a line of CA and return an int that is the sum of all the CA digits.
-- The function named "get_next_state" returns a char and takes two strings. The first string represents a neighborhood of a cell (always length 3). The second parameter is a multiline string like the following:
-_____________
-- 001 -> 2
-- 010 -> 1
-- 100 -> 3
-- 002 -> 1
-_____________
+- The function named "get_next_state" returns a char and takes two strings. The first string represents a neighborhood of a cell (always length 3). The second parameter is a multiline string like the following:<br />
+<br />
+001 -> 2 <br />
+010 -> 1 <br />
+100 -> 3 <br />
+002 -> 1 <br />
+<br />
 - If the neighborhood is "001" the result of this function is a '2'. A neighborhood of "100" returns a '3'.
 - An unspecified neighborhood (like "111") returns the default state of '0'.
 - The function named "update_line", takes two string parameters, but returns nothing. The first parameter is a string denoting a line/row of cells, the second parameter is a multiline string of rules (see the previous function). Instead of returning a newline, the first parameter is  altered to represent updating each cell for the next generation.
